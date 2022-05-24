@@ -14,14 +14,20 @@
       <v-row justify="center">
         <v-col cols="12" xl="8" class="pt-0">
           <v-tabs
+            color="secondary lighten-2"
             fixed-tabs
             dark
           >
-            <v-tab>Home</v-tab>
-            <v-tab>About</v-tab>
-            <v-tab>Event</v-tab>
-            <v-tab>Contact</v-tab>
+            <v-tabs-slider color="secondary lighten-2"></v-tabs-slider>
+            <v-tab to="/">Home</v-tab>
+            <v-tab to="/about">About</v-tab>
+            <v-tab to="/event">Event</v-tab>
+            <v-tab to="/contact">Contact</v-tab>
+            <v-tab href="https://hanehanehane.net/">
+              Blog&nbsp;<v-icon>mdi-open-in-new</v-icon>
+            </v-tab>
           </v-tabs>
+          <router-view/>
         </v-col>
       </v-row>
     </v-container>
