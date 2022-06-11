@@ -28,7 +28,7 @@
     <v-col
      v-for="member in general_member"
      :key="member"
-     cols="4"
+     cols="6" xs="4"
     >
       <v-card>
         <v-img
@@ -50,7 +50,7 @@
     admin_member: [
       {
         name: 'ぺんたん。',
-        img: '/image/icon/pentan.png',
+        img: require('@/assets/icon/pentan.png'),
         field: ['分子生物学', '遺伝学'],
         hobby: ['Splatoon2', 'お絵描き'],
         greeting: '分子生物学はいいぞ。',
@@ -59,7 +59,7 @@
       },
       {
         name: 'まっしろ',
-        img: '/image/icon/default.png',
+        img: require('@/assets/icon/default.png'),
         field: ['電磁気', '電磁波'],
         hobby: ['スキー', 'ジグソーパズル', 'パラドゲー'],
         greeting: '',
@@ -68,7 +68,7 @@
       },
       {
         name: 'ハネ',
-        img: '/image/icon/hane.jpg',
+        img: require('@/assets/icon/hane.jpg'),
         field: ['機械学習', '集積回路'],
         hobby: ['個人開発', 'TRPG'],
         greeting: '一緒に共同開発したいものがあれば是非誘ってください!',
@@ -79,7 +79,7 @@
     general_member: [
       {
         name: 'カシオレ侍',
-        img: '/image/icon/cassiore.jpeg',
+        img: require('@/assets/icon/cassiore.jpeg'),
         field: ['医学'],
         hobby: [],
         greeting: 'オンラインで医学の知識を提供するアイカルシンも運営しております。是非下のリンクからご覧ください。',
