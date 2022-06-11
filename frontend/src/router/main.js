@@ -4,6 +4,8 @@ import Home from '../views/Home.vue'
 import About from '../views/About.vue'
 import Event from '../views/Event.vue'
 import Contact from '../views/Contact.vue'
+import Links from '../views/Link.vue'
+import Member from '../views/Member.vue'
 
 
 Vue.use(Router)
@@ -24,9 +26,19 @@ const routes = [{
   component: Event
 },
 {
+  path: '/member',
+  name: 'Member',
+  component: Member
+},
+{
   path: '/contact',
   name: 'Contact',
   component: Contact
+},
+{
+  path: '/links',
+  name: 'Links',
+  component: Links
 },
 {
   path: '/*',
@@ -36,7 +48,7 @@ const routes = [{
 ]
 
 const router = new Router({
-  mode: 'hash',
+  mode: 'history',
   base: process.env.BASE_URL,
   routes
 })
