@@ -39,7 +39,7 @@ export default {
       },
       {
         icon: 'mdi-twitter',
-        link: 'https://twitter.com/barla_wings'
+        link: 'https://twitter.com/pentan_0331'
       },
       {
         icon: 'mdi-github',

@@ -1,4 +1,5 @@
 <template>
+<!--オタク語りの会・博ふぇすについて -->
   <div>
     Event
   </div>

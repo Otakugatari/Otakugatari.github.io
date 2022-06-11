@@ -2,7 +2,7 @@
   <v-app class="background" style="">
     <v-main class="background">
       <v-container class="pa-0 background">
-          <v-col cols="12" xl="8" class="pa-0">
+          <v-col cols="12" xl="8" class="pa-0 mx-auto">
             <v-img
               src="./assets/header.png"
             ></v-img>

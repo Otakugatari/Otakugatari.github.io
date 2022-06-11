@@ -1,4 +1,5 @@
 <template>
+<!--連絡先 -->
   <div>
     Content
   </div>
