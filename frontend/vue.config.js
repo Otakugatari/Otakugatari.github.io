@@ -1,5 +1,5 @@
 module.exports = {
-  publicPath: '/homepage',
+  publicPath: '/',
   outputDir: '../docs',
   assetsDir: './',
   transpileDependencies: [
