@@ -1,13 +1,14 @@
 <template>
-<!--メンバーの各ブログや連絡先 -->
+<!--各ブログや連絡先 -->
   <div>
-    Links
+    Links<br>
+    それぞれのブログ、販売サイトを記載予定。しばしお待ちを。
   </div>
 </template>
 
 <script>
   export default {
-  name: 'FooterComp',
+  name: 'link',
   data: () => ({
     //
   })

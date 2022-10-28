@@ -8,7 +8,7 @@
     <v-col
      v-for="member in admin_member"
      :key="member"
-     cols="6" xs="4"
+     cols="6" sm="4"
     >
       <v-card>
         <v-img
@@ -28,7 +28,7 @@
     <v-col
      v-for="member in general_member"
      :key="member"
-     cols="6" xs="4"
+     cols="6" sm="4"
     >
       <v-card>
         <v-img
@@ -45,7 +45,7 @@
 
 <script>
   export default {
-  name: 'FooterComp',
+  name: 'member',
   data: () => ({
     admin_member: [
       {

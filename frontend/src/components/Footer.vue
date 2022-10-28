@@ -35,7 +35,7 @@ export default {
     footerlist: [
       {
         icon: 'mdi-home',
-        link: 'https://hanehanehane.net/'
+        link: 'https://otakugatari.net/'
       },
       {
         icon: 'mdi-twitter',
